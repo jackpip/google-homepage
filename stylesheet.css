@@ -12,6 +12,7 @@ a:hover {
 }
 
 #header {
+  width: 100%;
   top:0;
   position: fixed;
   float: right;
@@ -23,6 +24,7 @@ a:hover {
 }
 
 #footer {
+  width: 100%;
   position: fixed;
   bottom: 0;
 }
