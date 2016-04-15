@@ -5,10 +5,26 @@
 a {
   text-decoration: none;
   color: gray;
+  padding: 10px;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+.search {
+  height: 30px;
+  width: 500px;
+}
+
+.searchbutton {
+  height: 30px;
+  width: 150px;
+}
+
+img {
+  height: 92px;
+  width: 272px;
 }
 
 #header {
@@ -17,24 +33,51 @@ a:hover {
   top:0;
   position: fixed;
   right: 0;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+#header a {
+  float: right;
 }
 
 #middle {
+  position: fixed;
+  top: 25%;
+  left: 25%;
   margin: auto;
   width: 50%;
+  height: 50%;
 }
 
 #footer {
   width: 100%;
   height: 30px;
+  padding-top: 20px;
   position: fixed;
   bottom: 0;
+  background-color: #f1f1f1;
 }
 
 #footer_right {
-  right: 0;
+  float: right;
+  margin-right: 30px;
+  background-color: #f1f1f1;
 }
 
 #footer_left {
-  left: 0;
+  float: left;
+  margin-left: 30px;
+  background-color: #f1f1f1;
+}
+
+#app_icon {
+  height: 15px;
+  width: 15px;
+}
+
+#signin {
+  background-color: #4885ed;
+  color: white;
+  border-radius: 3px;
 }
