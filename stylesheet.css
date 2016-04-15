@@ -1,0 +1,24 @@
+* {
+  font-family: Arial;
+}
+
+#header {
+  top:0;
+  float: right;
+}
+
+#middle {
+  margin: auto;
+}
+
+#footer {
+  bottom: 0;
+}
+
+#footer_right {
+  float: right;
+}
+
+#footer_left {
+  float: left;
+}
